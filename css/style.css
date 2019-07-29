@@ -24,7 +24,6 @@ form input[type='text']{
     font-size: 1em;
     width: 100%;
     max-width: 500px;
-    text-decoration: underline;
     display: block;
 }
 
@@ -56,4 +55,16 @@ form button[type='submit']:hover,
 form button[type='submit']:focus{
     background: green;
     transition: 0.2s;
+}
+
+.repo{
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.repo a{
+    text-decoration: none;
+    color: blue;
+    display: block;
+    margin-left: 15px;
 }
