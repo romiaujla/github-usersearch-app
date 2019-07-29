@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+main, h1, h2, h3, h4, h5, h6, div, p, ul, li, 
+section, a, header, footer{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+form span{
+    display: block;
+}
+
+form input[type='text']{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 500px;
+    text-decoration: underline;
+    display: block;
+}
+
+form input[type='text']:hover{
+    cursor: pointer;
+}
+
+form input[type='text']:focus{
+    cursor: text;
+}
+
+form fieldset{
+    border: none;
+}
+
+form button[type='submit']{
+    padding: 10px 20px;
+    background: darkgreen;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+}
+
+form button[type='submit']:hover,
+form button[type='submit']:focus{
+    background: green;
+    transition: 0.2s;
+}
